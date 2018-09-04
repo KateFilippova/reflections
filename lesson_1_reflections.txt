@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    fc command is useful for comparing different versions of the code. It shows lines with different input. Comparing this lines make it easier to find the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It is very convinient to have earlier versions of the code, because you constantly making the changes and you'll never know how exectly it'll influence the whole programm. So if you've made some changes and your programm doesn't work any more it's a good idea to compare the versions.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    If you choose to create a commit manualy you can control the proper amount of code you've done before commiting and you can define logical blocks of code, by finishing which you should commit. The danger is that you can forget to commit.
+    On the other hand, if you have automatical commitment, you've guaranteed with the previous versions of your work, but as these versions created automatically, they are lacked of logical fullfillment.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because, Git was especially created for coders, and in some projects when you change something in one file of the repositary, it will affect the other files too, contrast to the documents in GoogleDocs
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows us information about commits/versions, such as it's id, author, time of the commit and short desscription. The information displayed from new ones on the top to the oldest on the bottom.
+    git diff allows to compare to cimmits by their ids. It shows which files were changed, which lines were added or removed.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It is more easily to make global changes as you know, that you can restore the previous version any time you need it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Now I'd like to create a depostary for my profile site
