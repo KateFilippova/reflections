@@ -15,6 +15,7 @@ organized? How would branches help?
 If you want to add new features or try to rewrite your code, also having the working version of it, you can use branches. It will help you to make changes in seperate branch
 
 How do the diagrams help you visualize the branch structure?
+It helps visual represent the current state of work done, and also the branch you are working on
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
