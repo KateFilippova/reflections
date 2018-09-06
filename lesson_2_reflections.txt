@@ -19,6 +19,7 @@ It helps visual represent the current state of work done, and also the branch yo
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Merging two branches together combine all new lines of code in one commit. Old lines stay too. Deleted lines no more in the commit. We use command "git merge branch_name" in the branch in which we want it to merge
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
